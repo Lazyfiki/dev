@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+sudo apt -y update
+sudo apt -y install zsh zsh-syntax-highlighting
+
+(
+cd $HOME/.config/zsh/
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+)

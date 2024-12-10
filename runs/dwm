@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mkdir -p $HOME/.local/src
+git clone https://github.com/lazyfiki/dwm.git $HOME/.local/src/dwm
+
+(
+cd $HOME/.local/src/dwm
+sudo make install
+)

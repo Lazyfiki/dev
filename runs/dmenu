@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mkdir -p $HOME/.local/src
+git clone https://github.com/lazyfiki/dmenu.git $HOME/.local/src/dmenu
+
+(
+cd $HOME/.local/src/dmenu
+sudo make install
+)

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+mkdir -p $HOME/.local/src
+git clone https://github.com/lazyfiki/st.git $HOME/.local/src/st
+
+(
+cd $HOME/.local/src/st
+sudo make install
+)
