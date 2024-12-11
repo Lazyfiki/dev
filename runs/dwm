@@ -2,7 +2,7 @@
 
 sudo apt -y update
 sudo apt -y install \
-    build-essential libx11-dev libx11-xcb-dev libxcb-res0-dev libxft-dev libxinerama-dev make patch xdotool xinit xserver-xorg libxmu-dev
+    build-essential libx11-dev libx11-xcb-dev libxcb-res0-dev libxft-dev libxinerama-dev make patch xdotool xinit xserver-xorg
 
 mkdir -p $HOME/.local/src
 git clone https://github.com/lazyfiki/dwm.git $HOME/.local/src/dwm
