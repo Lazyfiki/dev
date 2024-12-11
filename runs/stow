@@ -3,4 +3,4 @@
 sudo apt -y update
 sudo apt -y install stow
 
-pwd
+stow .
