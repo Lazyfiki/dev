@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt update
+sudo apt install make build-essential
+
 mkdir -p $HOME/.local/src
 git clone https://github.com/lazyfiki/st.git $HOME/.local/src/st
 
