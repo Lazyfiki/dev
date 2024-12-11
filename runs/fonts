@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo apt -y update
+sudo apt -y install fonts-font-awesome fonts-jetbrains-mono
