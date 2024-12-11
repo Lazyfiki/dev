@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+sudo apt update
+sudo apt install build-essential xserver-xorg xinit xdotool libx11-dev libxft-dev libxinerama-dev patch
+
 mkdir -p $HOME/.local/src
 git clone https://github.com/lazyfiki/dwm.git $HOME/.local/src/dwm
 
