@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo apt -y update
-sudo apt -y install -y make build-essential libharfbuzz-dev libharfbuzz-dev
+sudo apt -y install -y build-essential libharfbuzz-dev libx11-dev libxft-dev make
 
 mkdir -p $HOME/.local/src
 git clone https://github.com/lazyfiki/st.git $HOME/.local/src/st
